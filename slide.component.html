@@ -1,0 +1,92 @@
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets\slide1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="color: aqua; font-family: 'Big Shoulders Stencil Display', cursive;
+          font-family: 'Londrina Solid', cursive; margin-bottom: 0%;"> Welcome to Cult.fit<br> <span style="font-family: 'Big Shoulders Stencil Display', cursive;"></span></h1>
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets\slide2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 style="color:aqua; background-color: #1F2833; margin-left: 14vw; border-radius: 5px; margin-right: 14vw; font-family: 'Big Shoulders Stencil Display', cursive;
+          font-family: 'Londrina Solid', cursive;">THE BEST GYM ON THE PLANET</h2>
+          <p style="color: #1F2833;background-color: aqua; border-radius: 5px;"><strong>
+            Experience top-notch fitness at a price that fits your budget. Explore our membership options to find the perfect fit for your fitness journey.</strong></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets\slide3.jpg" class="d-block w-100 " style="height: 50%;" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 style="color: aqua; font-family: 'Big Shoulders Stencil Display', cursive;
+          font-family: 'Londrina Solid', cursive;  background-color: #1F2833; margin-left: 14vw; border-radius: 5px; margin-right: 14vw;">YOUR FITNESS IS ESSENTIAL ™</h2>
+          <p style="color: #1F2833;background-color: aqua; border-radius: 5px;"><strong>Elevate your physical and mental well-being with us! Our focus on holistic wellness will help you melt away stress, reduce anxiety, and boost your energy, leaving you feeling vibrant and strong year-round.</strong></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div style="z-index:0;" *ngIf="!userSer.isLoggedIn()">
+    <marquee  direction="left"  style="background-color: #1F2833 ; margin: 0%; padding: 0%;" >
+        <p  style="color:goldenrod; border-radius: 5px;"><strong>REGISTER TODAY AND ENJOY A 7 DAYS FREE TRIAL !</strong></p>
+    </marquee>
+  </div>
+  <div class=" p-5 rounded" style="background-color: #1F2833;">
+    <div class="col-sm-8 mx-auto" style="background-color: #1F2833">
+      <h1 style="color: aqua; font-family: 'Big Shoulders Stencil Display', cursive;
+      font-family: 'Londrina Solid', cursive;">ABOUT Cult.fit</h1>
+      <p style="color: #c5c6c7;">
+        Whether you're new to the gym or a seasoned pro, we offer a welcoming environment for everyone. Explore our diverse membership options and enjoy unlimited access to your home club, plus the support of our friendly and knowledgeable team whenever you need it.</p>
+      <p>
+        <a class="btn btn-info" routerLink="/login" role="button">Lets Go &raquo;</a>
+      </p>
+    </div>
+  </div>
+ 
+  <div style="background-color: #1F2833;" class="abus">
+    <!--image-->
+    <div class="card-group" style="background-color: #1F2833; margin: 1vw;" >
+      <div class="card" style="background-color: #1F2833; margin: 1vh; border-radius: 12px;">
+        <img src="assets/slide11.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+        <div class="card-body" style="background-color: #1F2833;">
+          <h5 class="card-title" style="font-family: 'Big Shoulders Stencil Display', cursive;
+          font-family: 'Londrina Solid', cursive; color: aqua; display: flex; justify-content: center;"> Perfect for women </h5>
+          <p class="card-text" style="color: #c5c6c7;  display: flex; justify-content: center;">We offer both unisex and women-only facilities, complete with female coaches for your comfort and convenience.</p>
+        </div>
+      </div>
+      <div class="card" style="background-color: #1F2833; margin: 1vh; border-radius: 12px;">
+        <img src="assets/slide12.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+        <div class="card-body" style="background-color: #1F2833;">
+          <h5 class="card-title" style="font-family: 'Big Shoulders Stencil Display', cursive;
+          font-family: 'Londrina Solid', cursive; color: aqua; display: flex; justify-content: center;">Outdoor Programs</h5>
+          <p class="card-text" style="color: #c5c6c7;  display: flex; justify-content: center;">Join our weekly outdoor programs at no additional cost!</p>
+        </div>
+      </div>
+      <div class="card" style="background-color: #1F2833; margin: 1vh; border-radius: 12px; ">
+        <img src="assets/slide13.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+        <div class="card-body" style="background-color: #1F2833; border-radius: 12px;">
+          <h5 class="card-title" style="font-family: 'Big Shoulders Stencil Display', cursive;
+          font-family: 'Londrina Solid', cursive; color: aqua; display: flex; justify-content: center;">Personal Training Program</h5>
+          <p class="card-text" style="color: #c5c6c7;  display: flex; justify-content: center;">Our top-notch coaches from every field are here to provide you with the best training possible.</p>
+        </div>
+      </div>
+    </div>
+    <!---->
+    
+  </div>
+ 
